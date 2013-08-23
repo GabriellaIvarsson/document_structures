@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<wml><template><onevent type="onenterforward"><refresh/></onevent><p><input type="search" name="search"/><br/><anchor><go method="post" href="search.php"><postfield name="search" value="$(search)"/></go>
+            Search
+          </anchor></p><do label="Back" type="accept"><prev/></do><do name="menu2" type="accept" label="Schedule"><go href="schedule.php"/></do><do name="menu3" type="accept" label="My schedule"><go href="myschedule.php#div"/></do><do name="menu4" type="accept" label="New activity"><go href="newactivity.php#new"/></do><do name="menu5" type="accept" label="Groups"><go href="groups.php#edit"/></do></template></wml>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<!DOCTYPE calendar SYSTEM "http://www.student.itn.liu.se/~gabiv132/TNM065/projekt/calendar.dtd">
+<calendar>
+  <activity>
+    <name>Lunch</name>
+    <creator>
+      <user>
+        <name>Gabriella Ivarsson</name>
+      </user>
+    </creator>
+    <date>2013-11-23</date>
+    <starttime>12:00:00</starttime>
+    <endtime>13:00:00</endtime>
+    <place>Fiket</place>
+    <link>http://www.studentfiket.com</link>
+    <info>Ta med matlådan</info>
+    <group>
+      <name>Skvallertanterna</name>
+    </group>
+  </activity>
+
+  <activity>
+    <name>Fika</name>
+    <creator>
+      <user>
+        <name>Oscar Persson</name>
+      </user>
+    </creator>
+    <date>2013-11-22</date>
+    <starttime>10:00:00</starttime>
+    <endtime>11:00:00</endtime>
+    <place>Fiket</place>
+    <link>http://www.studentfiket.com</link>
+    <info>Gott!</info>
+    <group>
+      <name>Skvallertanterna</name>
+    </group>
+  </activity>
+
+  <group>
+    <name>Skvallertanterna</name>
+    <user>
+      <name>Oscar Persson</name>
+    </user>
+    <user>
+      <name>Gabriella Ivarsson</name>
+    </user>
+  </group>
+
+  <user>
+    <name>Gabriella Ivarsson</name>
+    <password>gabriella</password>
+    <email>gabriellaivarsson@gmail.com</email>
+  </user>
+
+  <user>
+    <name>Oscar Persson</name>
+    <password>oscar</password>
+    <email>oscar@gmail.com</email>
+  </user>
+
+  <subscription>
+    <name>Lunch</name>
+    <user>
+      <name>Oscar Persson</name>
+    </user>
+  </subscription>
+
+  <subscription>
+    <name>Fika</name>
+    <user>
+      <name>Gabriella Ivarsson</name>
+    </user>
+  </subscription>
+
+
+  <subscription>
+    <name>Lunch</name>
+    <user>
+      <name>Gabriella Ivarsson</name>
+    </user>
+  </subscription>
+
+</calendar>

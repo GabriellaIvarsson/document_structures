@@ -1,0 +1,99 @@
+@charset "iso-8859-1";
+/* CSS Document */
+
+/*Design för body*/
+body {
+font-size: small;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+text-align: justify;
+background-color: #dee9fa;
+}
+
+/*design för rubriken h1*/
+h1 {
+font-size: 110%;
+}
+
+/*design för rubriken h2*/
+h2 {
+text-align: justify;
+font-size: 100%;
+font-style:oblique;
+}
+
+/*design för rubriken h3*/
+h3 {
+text-align: justify;
+font-size: 120%;
+}
+
+/*design för länkar*/
+a:link { text-decoration: none; color: #3b66a6;}
+a:visited { text-decoration: none; color: #3b66a6;}
+a:active { text-decoration: none; color: #3b66a6;}
+a:hover { text-decoration: none; color: #3b66a6;}
+
+.styleform {width:300px; margin-bottom: 50px;}
+.styleform label{float:left; width:150px;}
+.styleform input{} /* this gives space for the label on the left */
+.styleform .clear{clear:both;} /* prevent elements from stacking weirdly */
+.formsubmit {float:right;}
+
+.styleactivity {width:600px; margin-bottom: 50px;}
+.button {float:center;margin-left:0px}
+
+/*design för boxen runt hela sidan*/
+#wrapper {
+margin-left: 20%;
+margin-top: 2%;
+margin-bottom: 5%;
+width: 700px;
+}
+
+/*design för boxen head*/
+#head {
+height: 77px;
+width: 700px;
+float: top;
+float: left;
+margin: 0 15px 15px 0;
+border: none;
+}
+
+/*design för boxen med bild*/
+#picture {
+height: 77px;
+width: 373px;
+float: top;
+float: left;
+border: none;
+}
+
+/*design för boxen med inlogg*/
+#login {
+height: 77px;
+float: right;
+float: top;
+}
+
+/*design för boxen med menyn*/
+#menu {
+float: none;
+}
+
+#search {
+float: right;
+}
+
+
+/*deisgn för boxen med text*/
+#text {
+background-color: #ecf1ef;
+width: 670px;
+margin-top: 0px;
+margin-bottom: 10px;
+border: solid 1px #3b66a6;
+padding: 15px;
+float: center;
+}
+

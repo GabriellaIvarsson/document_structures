@@ -1,0 +1,27 @@
+<!ELEMENT calendar (activity*, group*, user*, subscription*)>
+
+<!ENTITY auml    "&#228;" >
+<!ENTITY ouml    "&#246;" >
+<!ENTITY aring   "&#229;" >
+<!ENTITY Ouml    "&#214;" >
+<!ENTITY Auml    "&#196;" >
+<!ENTITY Aring   "&#197;" >
+<!ENTITY brkbar    "&#166;" >
+<!ENTITY ccedil   "&#231;" >
+
+<!ELEMENT activity (name, creator, date, starttime, endtime?, place, link?, info?, group?)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT creator (user)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT starttime (#PCDATA)>
+<!ELEMENT endtime (#PCDATA)>
+<!ELEMENT place (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT info (#PCDATA)>
+
+<!ELEMENT group (name, user*)>
+<!ELEMENT user (name, password?, email?)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT subscription (name, user)>
